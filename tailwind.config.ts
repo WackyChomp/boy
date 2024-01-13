@@ -20,6 +20,10 @@ const config: Config = {
         accent2: '#3da58a',
         biege: "#f9ffac",
         gray: "#747474",
+      },
+      fontFamily:{
+        r: ['var(--font-r)'],
+        in: ['var(--font-in)'],
       }
     },
   },
