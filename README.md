@@ -12,6 +12,19 @@ Here are some frameworks/libraries used in this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of wonderful resources and credits to: 
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+* [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
+<br><br>
+* [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES
 https://www.markdownguide.org/basic-syntax/#reference-style-links
