@@ -1,6 +1,25 @@
 # boy
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center" id='readme-top'>
+  <img src="https://img.freepik.com/premium-photo/steppe-covered-with-dry-grass-plain-mountains-distance-sunny-day-fall-ai-generation_199743-17522.jpg" alt="Logo" width="400" height="200">
 
+  <h3 align="center">BOY</h3>
+
+  <p align="center">
+    Blogging Over Yonder
+    <br />
+    <br />
+    <a href="https://github.com/WackyChomp/boy"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://github.com/WackyChomp/boy">View Demo</a>
+    ·
+    <a href="https://github.com/WackyChomp/boy/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/WackyChomp/boy/issues">Request Feature</a>
+  </p>
+</div>
 
 ## Built With
 Here are some frameworks/libraries used in this project:
@@ -10,6 +29,7 @@ Here are some frameworks/libraries used in this project:
 * [![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- ACKNOWLEDGMENTS -->
