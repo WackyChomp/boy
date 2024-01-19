@@ -2,7 +2,7 @@ import { makeSource, defineDocumentType } from '@contentlayer/source-files'
 
 const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: '**/**/*.md',
+  filePathPattern: '**/**/*.mdx',
   fields: {
     title: {
       type: 'string',
