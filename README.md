@@ -1,5 +1,13 @@
 # boy
 
+<!--
+package.json
+- if missing contentlayer, generate contentlayer by changing contents of "dev" script
+  - "contentlayer dev & next dev"
+
+-->
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
@@ -20,6 +28,7 @@
     <a href="https://github.com/WackyChomp/boy/issues">Request Feature</a>
   </p>
 </div>
+
 
 ## Built With
 Here are some frameworks/libraries used in this project:
@@ -42,6 +51,7 @@ List of wonderful resources and credits to:
 * [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
 <br><br>
 * [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+* [Contentlayer](https://contentlayer.dev/) - Validates/transforms content into type-safe JSON data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

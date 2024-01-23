@@ -15,7 +15,15 @@ const HomeCoverSection = ( {blogs}: Props) => {
   
   return (
     <div className="w-full">
-      <article className='rounded-3xl flex flex-col items-start justify-end mx-10 relative h-[85vh]'>
+      <article className='rounded-3xl flex flex-col items-start justify-end relative mx-20 h-[80vh]'>
+        
+        {/* dark overlay - same size as the overall div and blog image */}
+        <div 
+          className="absolute top-0 left-0 bottom-0 right-0 h-full
+          bg-gradient-to-b from-transparent from-0% to-dark rounded-3xl z-10
+          "
+        />
+        
         <Image 
           src={blog.image.filePath.replace('../public', '')}
           alt={blog.title}
@@ -25,7 +33,7 @@ const HomeCoverSection = ( {blogs}: Props) => {
         />
 
         {/* Tag / Title / Description */}
-        <div className="border border-purple-500 w-3/4 space-y-5 p-24 flex flex-col items-start justify-center z-0">
+        <div className="border border-purple-500 w-3/4 space-y-5 p-24 flex flex-col items-start justify-center z-10">
           <Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]}></Tag>
 
           <Link href={blog.title} className='mt-6'>
