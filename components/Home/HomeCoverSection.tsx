@@ -33,7 +33,7 @@ const HomeCoverSection = ( {blogs}: Props) => {
         />
 
         {/* Tag / Title / Description */}
-        <div className="border border-purple-500 w-3/4 space-y-5 p-24 flex flex-col items-start justify-center z-10">
+        <div className="text-light border border-purple-500 w-3/4 space-y-5 p-24 flex flex-col items-start justify-center z-10">
           <Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]}></Tag>
 
           <Link href={blog.title} className='mt-6'>
