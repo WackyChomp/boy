@@ -18,10 +18,8 @@ const FeaturedPosts = ( { blogs } : Props) => {
         <article className='col-span-1 row-span-2 relative'><BlogLayoutOne blog={sortedBlogs[1]}/></article>
         <article className='col-span-1 row-span-1 relative'><BlogLayoutTwo blog={sortedBlogs[2]}/></article>
         <article className='col-span-1 row-span-1 relative'><BlogLayoutTwo blog={sortedBlogs[3]}/></article>
-        <article className='col-span-1 row-span-1 relative'>blog layout 2</article>
-        <article className='col-span-1 row-span-1 relative'>blog layout 3</article>
-
-
+        {/*<article className='col-span-1 row-span-1 relative'>blog layout 2</article>*/}
+        {/*<article className='col-span-1 row-span-1 relative'>blog layout 3</article>*/}
       </div>
     </section>
   )

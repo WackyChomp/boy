@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { allBlogs } from '../.contentlayer/generated'
 import HomeCoverSection from '@/components/Home/HomeCoverSection'
 import FeaturedPosts from '@/components/Home/FeaturedPosts'
+import RecentPosts from '@/components/Home/RecentPosts'
 
 export default function Home() {
   console.log(allBlogs)
@@ -10,6 +11,7 @@ export default function Home() {
       Hello from the other side!!!
       <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />
+      <RecentPosts blogs={allBlogs} />
     </main>
   )
 }
