@@ -1,6 +1,7 @@
 import { sortBlogs } from '@/utils';
 import Link from 'next/link';
 import React from 'react';
+import BlogLayoutThree from '../Blog/BlogLayoutThree';
 
 type Props = {
   blogs: any;
@@ -10,7 +11,7 @@ const RecentPosts = ({ blogs }: Props) => {
   const sortedBlogs = sortBlogs(blogs)
 
   return (
-    <section className='w-full mt-12 px-20 flex flex-col items-center justify-center'>
+    <section className='w-full mt-16 px-20 flex flex-col items-center justify-center'>
 
       {/* Section Title */}
       <div className="flex w-full justify-between">
@@ -19,11 +20,13 @@ const RecentPosts = ({ blogs }: Props) => {
       </div>
 
       {/* Display Blogs */}
-      <div className="grid grid-cols-3 grid-rows-3 gap-16 mt-16">
+      <div className="grid grid-cols-3 grid-rows-3 gap-10 mt-6">
         {
           sortedBlogs.slice(0,4).map((blog, index) => {
             return(
-              <article key={blog} className='col-span-1 row-span-1 relative'>Blog Layout 3</article>
+              <article key={blog} className='col-span-1 row-span-1 relative'>
+                <BlogLayoutThree blog={blog} />
+              </article>
               )
           })
         }
