@@ -23,7 +23,7 @@ const BlogLayoutTwo = ({ blog }: Props) => {
 
         {/* Tag / Title / Description */}
         <div className="w-full col-span-8 p-3 bg-black/60 border border-red-500">
-        <span className='uppercase text-accent1 font-semibold text-lg'>{blog.tags[0]}</span>
+        <span className='uppercase text-blue-400 font-semibold text-lg'>{blog.tags[0]}</span>
 
         <Link href={blog.title} className='inline-block my-2'>
           <h1 className='font-bold captitalize text-2xl text-light'>

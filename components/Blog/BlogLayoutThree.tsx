@@ -10,7 +10,7 @@ type Props = {
 const BlogLayoutThree = ({ blog }: Props) => {
   return (
 
-      <div className='flex flex-col items-center p-3 rounded-xl bg-orange-400 text-blue-400'>
+      <div className='flex flex-col items-center p-3 rounded-xl bg-green-400'>
   
         <Link href={blog.title} className='h-full rounded-xl overflow-hidden'>
           <Image 
@@ -25,7 +25,7 @@ const BlogLayoutThree = ({ blog }: Props) => {
           {/* Tag / Title / Description */}
           <div className="w-full flex flex-col mt-3 p-3 bg-black/60 border border-red-500">
   
-            <span className='uppercase text-accent1 font-semibold text-lg'>{blog.tags[0]}</span>
+            <span className='uppercase text-blue-400 font-semibold text-lg'>{blog.tags[0]}</span>
     
             <Link href={blog.title} className='inline-block my-2'>
               <h1 className='font-bold captitalize text-2xl text-light'>
