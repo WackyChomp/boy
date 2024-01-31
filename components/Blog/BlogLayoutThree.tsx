@@ -12,13 +12,13 @@ const BlogLayoutThree = ({ blog }: Props) => {
 
       <div className='flex flex-col items-center p-3 rounded-xl bg-green-400'>
   
-        <Link href={blog.title} className='h-full rounded-xl overflow-hidden'>
+        <Link href={blog.title} className='group h-full rounded-xl overflow-hidden'>
           <Image 
             src={blog.image.filePath.replace('../public', '')}
             alt={blog.title}
             width={blog.image.width}
             height={blog.image.height}
-            className='w-full h-full aspect-[4/3] object-center object-cover rounded-3xl'
+            className='w-full h-full aspect-[4/3] object-center object-cover rounded-3xl group-hover:scale-105 transition-all ease duration-300'
           />
         </Link>
   

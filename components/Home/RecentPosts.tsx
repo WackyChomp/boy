@@ -22,7 +22,7 @@ const RecentPosts = ({ blogs }: Props) => {
       {/* Display Blogs */}
       <div className="grid grid-cols-3 grid-rows-3 gap-10 mt-6">
         {
-          sortedBlogs.slice(0,4).map((blog, index) => {
+          sortedBlogs.slice(0,6).map((blog, index) => {
             return(
               <article key={blog} className='col-span-1 row-span-1 relative'>
                 <BlogLayoutThree blog={blog} />

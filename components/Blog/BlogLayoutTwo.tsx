@@ -11,13 +11,13 @@ const BlogLayoutTwo = ({ blog }: Props) => {
   return (
     <div className='grid grid-cols-12 gap-4 p-3 rounded-xl items-center bg-green-400 text-yellow-400'>
 
-      <Link href={blog.title} className='col-span-4 h-full rounded-xl overflow-hidden'>
+      <Link href={blog.title} className='group col-span-4 h-full rounded-xl overflow-hidden'>
         <Image 
           src={blog.image.filePath.replace('../public', '')}
           alt={blog.title}
           width={blog.image.width}
           height={blog.image.height}
-          className='w-full h-full aspect-square object-center object-cover rounded-3xl'
+          className='w-full h-full aspect-square object-center object-cover rounded-3xl group-hover:scale-105 transition-all ease duration-300'
         />
       </Link>
 
