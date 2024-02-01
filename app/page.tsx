@@ -3,6 +3,7 @@ import { allBlogs } from '../.contentlayer/generated'
 import HomeCoverSection from '@/components/Home/HomeCoverSection'
 import FeaturedPosts from '@/components/Home/FeaturedPosts'
 import RecentPosts from '@/components/Home/RecentPosts'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   console.log(allBlogs)
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />
       <RecentPosts blogs={allBlogs} />
+      <Footer />
     </main>
   )
 }
