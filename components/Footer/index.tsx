@@ -1,6 +1,8 @@
 'use client'
 import React from 'react'
 import { useForm } from 'react-hook-form';
+import Image from 'next/image';
+import Link from 'next/link';
 
 type Props = {}
 
@@ -28,6 +30,82 @@ const Footer = ({}: Props) => {
 
         <input type="submit" className='bg-dark text-blue-400 cursor-pointer font-medium rounded px-5 py-1' />
       </form>
+
+      <div className="flex items-center m-3 bg-red-400">
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/ios/200/image--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/wired/200/facebook--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/wired/200/linkedin--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/wired/200/github--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/ios/200/meta.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/wired/200/mac-os--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+        <a href="/" className='inline-block w-10 h-10 m-3 bg-yellow-400'>
+        <Image
+          src='https://img.icons8.com/ios/200/image--v1.png'
+          alt='image here'
+          width={50}
+          height={50}
+          className='hover:scale-150 transition-all ease duration-200'
+        />
+        </a>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <span>&copy;2024 BOY, All rights reserved.</span>
+        <Link href='/sitemap.xml'>
+          sitemap.xml
+        </Link>
+        <div className="">
+          made with &hearts; by <a href=''>BOY</a>
+        </div>
+      </div>
     </footer>
   )
 }

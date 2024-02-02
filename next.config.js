@@ -16,6 +16,14 @@ module.exports = {
         port: '',
         pathname: '/ZFoOuUSqPBEAAAAi/stalzone-meme.gif',
       },
+      {
+        protocol: 'https',
+        hostname: 'media4.giphy.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+      },
     ]
   }
 }
