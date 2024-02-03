@@ -97,7 +97,7 @@ const Footer = ({}: Props) => {
         </a>
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-row items-center w-full  mt-3 relative border-t border-solid border-light py-6 px-8 justify-between">
         <span>&copy;2024 BOY, All rights reserved.</span>
         <Link href='/sitemap.xml'>
           sitemap.xml
