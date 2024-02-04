@@ -11,7 +11,7 @@ package.json
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="https://img.freepik.com/premium-photo/steppe-covered-with-dry-grass-plain-mountains-distance-sunny-day-fall-ai-generation_199743-17522.jpg" alt="Logo" width="400" height="200">
+  <img src="https://img.freepik.com/premium-photo/steppe-covered-with-dry-grass-plain-mountains-distance-sunny-day-fall-ai-generation_199743-17522.jpg" alt="Logo" width="400" height="200" style='border-radius: 1em'>
 
   <h3 align="center">BOY</h3>
 
@@ -53,6 +53,25 @@ package.json
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+
+
+## About the Project
+
+Blogging allows people with an interest in writing to express themselves in a way
+that may be theraputic or educational. No matter what level of knowledge/experience/expertise you have, there will always be people who will find it helpful or informational. The blogs/articles you write doesn't have to cater to every person as each of us has different perspectives and baseline knowledge at that moment in time.
+
+The process of designing and building a personalized blog can be a significant undertaking for those with either limited technical background or limited time. There's only so much bandwidth we can juggle at a time. Hopefully, this project helps alleviate some of the existing constraints you may have.
+
+This application offers the essential features/components of blog in a customizable package. By using this project, you shall have access to:
+
+* Blogging application with multiple pages readily available for SEO
+* Sleek and responsive design for satisfying seamless user experience with <u><b>Tailwind CSS</u></b>
+* Incorporated <u><b>React Hook Forms</b></u> to validate email submission for marketing newsletters, scheduling, and consultations
+* Deployed with <u><b>Vercel</b></u> for accessibility and reliability no matter your situation
+* Utilizing open source, <u><b>Next.js</b></u> for swift boilerplate setup, continuous updates, and transparent development
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Built With

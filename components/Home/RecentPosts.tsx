@@ -20,7 +20,7 @@ const RecentPosts = ({ blogs }: Props) => {
       </div>
 
       {/* Display Blogs */}
-      <div className="grid grid-cols-3 grid-rows-3 gap-10 mt-6">
+      <div className="grid grid-cols-3 grid-rows-2 gap-10 mt-6">
         {
           sortedBlogs.slice(0,6).map((blog, index) => {
             return(
