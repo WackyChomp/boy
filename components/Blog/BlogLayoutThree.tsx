@@ -12,7 +12,7 @@ const BlogLayoutThree = ({ blog }: Props) => {
 
       <div className='flex flex-col items-center p-3 rounded-xl bg-green-400'>
   
-        <Link href={blog.title} className='group h-full rounded-xl overflow-hidden'>
+        <Link href={blog.url_path} className='group h-full rounded-xl overflow-hidden'>
           <Image 
             src={blog.image.filePath.replace('../public', '')}
             alt={blog.title}
@@ -27,7 +27,7 @@ const BlogLayoutThree = ({ blog }: Props) => {
   
             <span className='uppercase text-blue-400 font-semibold text-lg'>{blog.tags[0]}</span>
     
-            <Link href={blog.title} className='inline-block my-2'>
+            <Link href={blog.url_path} className='inline-block my-2'>
               <h1 className='font-bold captitalize text-2xl text-light'>
                 <span className={`bg-gradient-to-r from-accent2 to-accent2 bg-[length:0px_6px] 
                   hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500

@@ -29,7 +29,7 @@ const BlogLayoutOne = ({ blog }: Props) => {
       <div className="w-full absolute bottom-0 p-10 z-20">
         <Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]}/>
 
-        <Link href={blog.title} className='mt-6'>
+        <Link href={blog.url_path} className='mt-6'>
           <h1 className='font-bold captitalize text-2xl text-light mt-5'>
             <span className={`bg-gradient-to-r from-accent2 to-accent2 bg-[length:0px_6px] 
               hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500

@@ -36,7 +36,7 @@ const HomeCoverSection = ( {blogs}: Props) => {
         <div className="text-light border border-purple-500 w-3/4 space-y-5 p-24 flex flex-col items-start justify-center z-10">
           <Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]}></Tag>
 
-          <Link href={blog.title} className='mt-6'>
+          <Link href={blog.url_path} className='mt-6'>
             <h1 className='font-bold captitalize text-4xl'>
               <span className={`bg-gradient-to-r from-accent2 to-accent2 bg-[length:0px_6px] 
                 hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500
