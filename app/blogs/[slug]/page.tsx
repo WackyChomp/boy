@@ -4,6 +4,7 @@ import Tag from "@/components/Home/Elements/Tag"
 import Image from "next/image"
 import Footer from "@/components/Footer"
 import QuickBlogDetails from "@/components/Blog/QuickBlogDetails"
+import RenderMdx from "@/components/Blog/RenderMdx"
 
 
 export default function Page({ params }: { params: { slug: string } }) {
@@ -41,6 +42,14 @@ export default function Page({ params }: { params: { slug: string } }) {
       </div>
 
       <QuickBlogDetails blog={blog} slug={params.slug} />
+
+      {/* 1) Blog mdx contents --- 2) Table of Contents */}
+      <div className="grid grid-cols-12 gap-16 mt-8 px-10">
+        <div className="col-span-4">Item #1</div>
+        <div className="col-span-8">Item #2</div>
+        
+        <RenderMdx blog={blog} />
+      </div>
 
       <Footer />
     </article>
