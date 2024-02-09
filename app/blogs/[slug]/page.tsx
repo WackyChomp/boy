@@ -43,10 +43,9 @@ export default function Page({ params }: { params: { slug: string } }) {
 
       <QuickBlogDetails blog={blog} slug={params.slug} />
 
-      {/* 1) Blog mdx contents --- 2) Table of Contents */}
+      {/* 1) Table of Contents --- 2) Blog mdx contents */}
       <div className="grid grid-cols-12 gap-16 mt-8 px-10">
-        <div className="col-span-4">Item #1</div>
-        <div className="col-span-8">Item #2</div>
+        <div className="col-span-4">Table of Contents</div>
         
         <RenderMdx blog={blog} />
       </div>
